@@ -1,4 +1,4 @@
-const DataStorage = artifacts.require("DataStorage");
+const DataStorage = artifacts.require("ProjectFIR");
 
 module.exports = function(deployer) {
   deployer.deploy(DataStorage);
